@@ -30,14 +30,14 @@ after struggling to find a good library who do it the same as the native iOS gal
 with 'SwiftyMediaGallery' it is very easy to implement. 
 The library comes with flexible public API-based POP (Protocol Oriented Programming) and a bunch of built-in features: 
 
-- [x] Asynchronous images downloading
-- [x] Automatic reprioritizing images downloading - last requests will be on higher so user will wait less
+- [x] Asynchronous image downloading
+- [x] Automatic reprioritizing images downloading - last requests will be higher so a user will wait less
 - [x] Rendering and decoding images on the global thread (default iOS do it on the Main)
 - [x] Automatic disk / Memory cache
 - [x] Navigation Image Transition animation
 - [x] Follow back current image index
 - [x] Supports images / videos
-- [x] Automatic generating videos tumbnails if needed
+- [x] Automatic generating videos thumbnails if needed
 
 ## Usage
 
