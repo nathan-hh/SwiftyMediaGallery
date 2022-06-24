@@ -26,10 +26,9 @@
 ## Description
 
 Showing images and videos in an application is a requirement these days in many apps,
-after strageling finding a good library who do it same as the native iOS gallery i've decided to come with a solution myself and help others.
-with `SwiftyMediaGallery` it is very easy to implement.
-The library comes with flexible public API based POP (Protocol Oriented Proggraming) and
-a bunch of built-in features:
+after struggling to find a good library who do it the same as the native iOS gallery I’ve decided to come up with a solution myself and help others. 
+with 'SwiftyMediaGallery' it is very easy to implement. 
+The library comes with flexible public API-based POP (Protocol Oriented Programming) and a bunch of built-in features: 
 
 - [x] Asynchronous images downloading
 - [x] Automatic reprioritizing images downloading - last requests will be on higher so user will wait less
