@@ -25,10 +25,14 @@
 
 ## Description
 
-Showing images and videos in an application is a requirement these days in many apps,
-after struggling to find a good library who do it the same as the native iOS gallery I’ve decided to come up with a solution myself and help others. 
-with 'SwiftyMediaGallery' it is very easy to implement. 
-The library comes with flexible public API-based POP (Protocol Oriented Programming) and a bunch of built-in features: 
+'SwiftyMediaGallery' is a powerful library specifically designed to streamline the process of displaying online images and videos within your applications. This library is engineered to handle the complexities of managing online media. In the modern era, the inclusion of multimedia elements in applications is almost a necessity, and SwiftyMediaGallery aims to make this process as seamless as possible.
+
+I developed this library after noticing a lack of satisfactory libraries that could mimic the functionality of the native iOS gallery. SwiftyMediaGallery not only fills this gap but also offers an easy-to-implement solution for developers.
+Unlike the native iOS gallery, which is primarily used for displaying locally stored media, SwiftyMediaGallery stands out by providing functionality for both local and online media. It offers developers a streamlined process for fetching and displaying media content from online sources, alongside the ability to handle locally stored media.
+
+The library is built with Protocol Oriented Programming (POP) principles, providing a flexible, public API. It comes loaded with several built-in features, such as automatic reprioritization of image downloads to reduce user wait time, and offloading image rendering and decoding to a global thread, which contrasts with the main thread used by default iOS.
+
+features:
 
 - [x] Asynchronous image downloading
 - [x] Automatic reprioritizing images downloading - last requests will be higher so a user will wait less
@@ -36,7 +40,7 @@ The library comes with flexible public API-based POP (Protocol Oriented Programm
 - [x] Automatic disk / Memory cache
 - [x] Navigation Image Transition animation
 - [x] Follow back current image index
-- [x] Supports images / videos
+- [x] Supports images/videos
 - [x] Automatic generating videos thumbnails if needed
 
 ## Usage
@@ -49,7 +53,7 @@ let arrMediaItems = CurrentValueSubject <[AnyMediaItem], Never>([AnyMediaItem]()
 let currentIndex = CurrentValueSubject <Int, Never>(0)
 let viewController = MediaGalleryVC.initVC(array: arrMediaItems, currentIndex: currentIndex)
 ```
-Create type-erasing items by using wrapper 'AnyMediaItem' and append to an array
+Create type-erasing items by using the wrapper 'AnyMediaItem' and append to an array
 ```swift
 let imageItem = ImageMediaItem(url: url.absoluteString)
 let videoItem = VideoMediaItem(url: url.absoluteString)
