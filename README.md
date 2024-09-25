@@ -1,6 +1,5 @@
 # SwiftyMediaGallery
 
-[![CI Status](https://img.shields.io/travis/nathan-hh/SwiftyMediaGallery.svg?style=flat)](https://travis-ci.org/nathan-hh/SwiftyMediaGallery)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyMediaGallery.svg?style=flat)](https://cocoapods.org/pods/SwiftyMediaGallery)
 [![License](https://img.shields.io/cocoapods/l/SwiftyMediaGallery.svg?style=flat)](https://cocoapods.org/pods/SwiftyMediaGallery)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyMediaGallery.svg?style=flat)](https://cocoapods.org/pods/SwiftyMediaGallery)
@@ -165,4 +164,4 @@ https://github.com/nathan-hh/SwiftyMediaGallery.git
 nathan-hh, fdg
 
 ## License
-SwiftyMediaGallery is available under the [NON-AI-MIT license]([https://cocoapods.org](https://github.com/non-ai-licenses/non-ai-licenses/blob/main/NON-AI-MIT)). See the LICENSE file for more info.
+SwiftyMediaGallery is available under the [NON-AI-MIT license](https://github.com/non-ai-licenses/non-ai-licenses/blob/main/NON-AI-MIT). See the LICENSE file for more info.
