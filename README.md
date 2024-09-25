@@ -165,5 +165,4 @@ https://github.com/nathan-hh/SwiftyMediaGallery.git
 nathan-hh, fdg
 
 ## License
-
-SwiftyMediaGallery is available under the MIT license. See the LICENSE file for more info.
+SwiftyMediaGallery is available under the [NON-AI-MIT license]([https://cocoapods.org](https://github.com/non-ai-licenses/non-ai-licenses/blob/main/NON-AI-MIT)). See the LICENSE file for more info.
