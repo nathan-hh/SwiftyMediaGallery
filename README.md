@@ -1,7 +1,7 @@
 # SwiftyMediaGallery
 
 [![Version](https://img.shields.io/cocoapods/v/SwiftyMediaGallery.svg?style=flat)](https://cocoapods.org/pods/SwiftyMediaGallery)
-[![License](https://img.shields.io/cocoapods/l/SwiftyMediaGallery.svg?style=flat)](https://cocoapods.org/pods/SwiftyMediaGallery)
+[![License](https://img.shields.io/badge/license-NON--AI--MIT-yellow.svg)](https://github.com/non-ai-licenses/non-ai-licenses/blob/main/NON-AI-MIT)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyMediaGallery.svg?style=flat)](https://cocoapods.org/pods/SwiftyMediaGallery)
 ![Swift](https://img.shields.io/badge/%20in-swift%205.0-orange.svg)
 
