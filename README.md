@@ -24,7 +24,7 @@
 
 ## Description
 
-'SwiftyMediaGallery' is a powerful library specifically designed to streamline the process of displaying online images and videos within your applications. This library is engineered to handle the complexities of managing online media. In the modern era, the inclusion of multimedia elements in applications is almost a necessity, and SwiftyMediaGallery aims to make this process as seamless as possible.
+'SwiftyMediaGallery' is a powerful library specifically designed to streamline the process of displaying online images and videos within your applications. This library is engineered to handle the complexities of managing online media. In the modern era, including multimedia elements in applications is almost necessary, and SwiftyMediaGallery aims to make this process as seamless as possible.
 
 I developed this library after noticing a lack of satisfactory libraries that could mimic the functionality of the native iOS gallery. SwiftyMediaGallery not only fills this gap but also offers an easy-to-implement solution for developers.
 Unlike the native iOS gallery, which is primarily used for displaying locally stored media, SwiftyMediaGallery stands out by providing functionality for both local and online media. It offers developers a streamlined process for fetching and displaying media content from online sources, alongside the ability to handle locally stored media.
@@ -40,7 +40,7 @@ features:
 - [x] Navigation Image Transition animation
 - [x] Follow back current image index
 - [x] Supports images/videos
-- [x] Automatic generating videos thumbnails if needed
+- [x] Automatic generating video thumbnails if needed
 
 ## Usage
 
@@ -87,9 +87,9 @@ viewController.setTransitionConfiguration(from: self, referenceImageView: {[weak
 navigationController?.pushViewController(viewController, animated: true)
 ```
 ### Set-UIImageView
-You can enjoy the benefit of the library to set your on UIImageView and have auto downloading and caching
+You can enjoy the benefit of the library to set your on UIImageView and have auto-downloading and caching
 ```swift
-yourImageView.set(image: url, withIndicator: false) //deafult with activity indicator
+yourImageView.set(image: url, withIndicator: false) //default with activity indicator
 ```
 ### Pre-fetching
 Manually pre-fetch urls
@@ -115,7 +115,7 @@ You can set it low to save memory and disk cache
 Configuration.shared.imageRendererMaxSize = CGSize(width: 2400,height: 2400)  // default is   1200*1200
 ```
 ### Show items from a specific index 
-for example gallery jump and show from 10th picture index
+for example, gallery jump and show from the 10th picture index
 
 just update currentIndex
 ```swift
@@ -155,7 +155,7 @@ it, simply add the following line to your Podfile:
 pod 'SwiftyMediaGallery'
 ```
 ### Swift Package Manager
-You can also use Swift Package Manager to add SwiftyMediaGallery as a dependency to your project. In order to do so, use the following URL:
+You can also use Swift Package Manager to add SwiftyMediaGallery as a dependency to your project. To do so, use the following URL:
 ```bash
 https://github.com/nathan-hh/SwiftyMediaGallery.git
 ```
